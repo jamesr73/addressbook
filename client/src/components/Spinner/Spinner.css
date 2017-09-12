@@ -1,0 +1,16 @@
+div.spinner {
+  text-align: center;
+}
+
+.glyphicon.animate {
+  animation: spin 0.7s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
