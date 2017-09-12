@@ -42,6 +42,8 @@ To change which configuration is used set the ```FLASK_CONFIG``` environment var
 export FLASK_CONFIG=production
 ```
 
+It is expected that the app will be run in development mode only for purposes of review. The production configuration option is provided for completeness. The test configuration is used by the tests.
+
 Once the database configuration options are set the database is created with Flask Migrate:
 
 ```
