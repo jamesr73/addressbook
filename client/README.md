@@ -13,7 +13,7 @@ Install the dependencies with npm (or yarn):
 npm install
 ```
 
-The server runs in development mode by default. The steps to create a production build are details in the docs for create-react-app linked above.
+The server runs in development mode by default. The steps to create a production build are detailed in the docs for create-react-app linked above.
 
 The development server should not require any additional configuration. ```package.json``` defines a proxy to the Api development server so that CORS headers are not required
 
